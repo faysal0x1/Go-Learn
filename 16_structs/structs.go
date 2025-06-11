@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"reflect"
-	"strings"
 	"time"
 )
 
@@ -187,8 +186,8 @@ func main() {
 
 	// 15. Empty struct
 	fmt.Println("\n15. Empty struct:")
-	var empty struct{}
-	fmt.Printf("Empty struct size: %d bytes\n", unsafe.Sizeof(empty))
+	// var empty struct{}
+	// fmt.Printf("Empty struct size: %d bytes\n", unsafe.Sizeof(empty))
 
 	// Used for signaling
 	done := make(chan struct{})

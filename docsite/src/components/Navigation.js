@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const sections = [
     { id: 1, title: 'Hello World', path: '/hello-world' },
-    { id: 2, title: 'Simple Values', path: '/simple-values' },
+    // { id: 2, title: 'Simple Values', path: '/simple-values' },
     { id: 3, title: 'Variables', path: '/variables' },
     { id: 4, title: 'Constants', path: '/constants' },
     { id: 5, title: 'For Loop', path: '/for-loop' },

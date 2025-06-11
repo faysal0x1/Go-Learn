@@ -1,5 +1,7 @@
 import './globals.css';
 import Navigation from '../components/Navigation';
+import { Suspense } from 'react';
+import Loader from './components/Loader';
 
 export const metadata = {
   title: 'Go Learning - Complete Guide',
@@ -13,7 +15,9 @@ export default function RootLayout({ children }) {
         <div className="flex min-h-screen">
           <Navigation />
           <main className="flex-1 ml-64 p-8">
-            {children}
+            <Suspense fallback={<Loader />}>
+              {children}
+            </Suspense>
           </main>
         </div>
       </body>

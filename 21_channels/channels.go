@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("=== Go Channels Examples ===\n")
+	fmt.Println("=== Go Channels Examples ===")
 
 	// 1. Basic channel operations
 	fmt.Println("1. Basic channel operations:")

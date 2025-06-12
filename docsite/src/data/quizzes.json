@@ -1,0 +1,66 @@
+{
+    "quizzes": [
+        {
+            "id": "go-basics",
+            "title": "Go Language Basics",
+            "description": "Test your knowledge of Go programming fundamentals",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "What is the entry point of a Go program?",
+                    "options": [
+                        "main()",
+                        "init()",
+                        "start()",
+                        "begin()"
+                    ],
+                    "correctAnswer": 0,
+                    "explanation": "In Go, the main() function is the entry point of the program."
+                },
+                {
+                    "id": 2,
+                    "question": "Which of the following is NOT a basic data type in Go?",
+                    "options": [
+                        "int",
+                        "float64",
+                        "char",
+                        "string"
+                    ],
+                    "correctAnswer": 2,
+                    "explanation": "Go doesn't have a 'char' type. Instead, it uses 'rune' for Unicode characters."
+                }
+            ]
+        },
+        {
+            "id": "go-concurrency",
+            "title": "Go Concurrency",
+            "description": "Test your knowledge of Go's concurrency features",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "What is a goroutine?",
+                    "options": [
+                        "A type of error handling",
+                        "A lightweight thread managed by the Go runtime",
+                        "A data structure for storing values",
+                        "A package management tool"
+                    ],
+                    "correctAnswer": 1,
+                    "explanation": "A goroutine is a lightweight thread managed by the Go runtime."
+                },
+                {
+                    "id": 2,
+                    "question": "Which keyword is used to create a new goroutine?",
+                    "options": [
+                        "new",
+                        "go",
+                        "spawn",
+                        "thread"
+                    ],
+                    "correctAnswer": 1,
+                    "explanation": "The 'go' keyword is used to start a new goroutine."
+                }
+            ]
+        }
+    ]
+}

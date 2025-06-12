@@ -1,0 +1,124 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the correct way to declare a variable in Go?",
+            "options": [
+                "var x int = 10",
+                "x := 10",
+                "let x = 10",
+                "const x = 10"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In Go, variables can be declared using the 'var' keyword followed by the variable name and type."
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is NOT a valid Go data type?",
+            "options": [
+                "int",
+                "float",
+                "char",
+                "string"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Go doesn't have a 'char' type. It uses 'rune' for single characters."
+        },
+        {
+            "id": 3,
+            "question": "What is the purpose of the 'defer' keyword in Go?",
+            "options": [
+                "To delay function execution",
+                "To handle errors",
+                "To create goroutines",
+                "To define interfaces"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 'defer' keyword postpones the execution of a function until the surrounding function returns."
+        },
+        {
+            "id": 4,
+            "question": "How do you create a new goroutine in Go?",
+            "options": [
+                "new goroutine()",
+                "go function()",
+                "spawn function()",
+                "thread function()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Goroutines are created using the 'go' keyword followed by a function call."
+        },
+        {
+            "id": 5,
+            "question": "What is the zero value of a pointer in Go?",
+            "options": [
+                "0",
+                "nil",
+                "null",
+                "undefined"
+            ],
+            "correctAnswer": 1,
+            "explanation": "The zero value of a pointer in Go is 'nil'."
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is used for error handling in Go?",
+            "options": [
+                "try-catch blocks",
+                "if-else with error return",
+                "error events",
+                "exception handling"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Go uses explicit error handling with if-else statements and error returns."
+        },
+        {
+            "id": 7,
+            "question": "What is the purpose of the 'interface{}' type in Go?",
+            "options": [
+                "To define methods",
+                "To create empty interfaces",
+                "To represent any type",
+                "To handle errors"
+            ],
+            "correctAnswer": 2,
+            "explanation": "The empty interface 'interface{}' can hold values of any type."
+        },
+        {
+            "id": 8,
+            "question": "How do you create a slice in Go?",
+            "options": [
+                "new slice()",
+                "make([]type, length)",
+                "create([]type)",
+                "array.slice()"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Slices are created using the 'make' function with the type and length."
+        },
+        {
+            "id": 9,
+            "question": "What is the purpose of the 'select' statement in Go?",
+            "options": [
+                "To handle multiple channels",
+                "To create switch cases",
+                "To select random numbers",
+                "To choose between types"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 'select' statement is used to handle multiple channel operations."
+        },
+        {
+            "id": 10,
+            "question": "Which of the following is NOT a valid way to create a map in Go?",
+            "options": [
+                "make(map[string]int)",
+                "map[string]int{}",
+                "new map[string]int",
+                "var m map[string]int"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Maps cannot be created using the 'new' keyword in Go."
+        }
+    ]
+}

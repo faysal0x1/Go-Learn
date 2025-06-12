@@ -30,18 +30,32 @@ export default function Navigation() {
                 <h1 className="text-2xl font-bold">Go Learning</h1>
                 <p className="text-sm text-gray-400">Complete Guide</p>
             </div>
-            <ul className="space-y-2">
-                {sections.map((section) => (
-                    <li key={section.id}>
-                        <Link
-                            href={section.path}
-                            className="block px-4 py-2 rounded hover:bg-gray-700 transition-colors"
-                        >
-                            {section.title}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+
+            {/* Quiz Section */}
+            <div className="mb-6">
+                <Link
+                    href="/quiz"
+                    className="block px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-center font-semibold"
+                >
+                    Take Quiz
+                </Link>
+            </div>
+
+            <div className="border-t border-gray-700 pt-4">
+                <h2 className="text-lg font-semibold mb-4">Tutorials</h2>
+                <ul className="space-y-2">
+                    {sections.map((section) => (
+                        <li key={section.id}>
+                            <Link
+                                href={section.path}
+                                className="block px-4 py-2 rounded hover:bg-gray-700 transition-colors"
+                            >
+                                {section.title}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </nav>
     );
 } 

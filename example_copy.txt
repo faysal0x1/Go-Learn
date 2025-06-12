@@ -1,0 +1,3 @@
+Hello, World!
+This is written as bytes
+Appended line
